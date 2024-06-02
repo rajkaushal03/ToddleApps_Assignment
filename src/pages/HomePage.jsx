@@ -25,7 +25,7 @@ function HomePage() {
   const [editmodule, seteditmodule] = useState("");
   const [editdisplay, seteditdisplay] = useState("");
   const [test, settest] = useState(true);
-  const [selectedFile, setSelectedFile] = useState("");
+  const [selectedFile, setSelectedFile] = useState(null);
   const [allTodos, setTodos] = useState([]);
 
   const toggleDropdown = () => {
