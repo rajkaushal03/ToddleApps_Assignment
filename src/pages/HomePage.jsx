@@ -411,7 +411,7 @@ function HomePage() {
                       );
                     } else if (
                       item.displayName === "" &&
-                      item.filename === null
+                      (item.filename === null || item.filename==="")
                     ) {
                       // Render Module section
                       return (
